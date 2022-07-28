@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.usf.imunet.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <org.rajawali3d.surface.RajawaliSurfaceView
+                android:id="@+id/gl_surface_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+
+            <!--<android.opengl.GLSurfaceView-->
+            <!--android:id="@+id/video_surface_view"-->
+            <!--android:layout_width="@dimen/video_width"-->
+            <!--android:layout_height="@dimen/video_height"-->
+            <!--android:onClick="switchCamera"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentTop="true"/>-->
+
+            <LinearLayout
+                android:id="@+id/hud_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="4"
+                    android:rowCount="5">
+
+                    <!-- Rotation-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Gyro.:"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_rx"
+                        android:layout_gravity="right"
+                        android:text="0.000000"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:id="@+id/label_ry"
+                        android:text="0.000000"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:id="@+id/label_rz"
+                        android:text="0.000000"/>
+
+                    <!-- Acceleration -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Acce.:"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_ax"
+                        android:layout_gravity="right"
+                        android:text="0.000000"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:id="@+id/label_ay"
+                        android:text="0.000000"/>
+                    <TextView
+                        android:layout_width="@dimen/imu_number_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:id="@+id/label_az"
+                        android:text="0.000000"/>
+
+                    <!-- user acceleration -->
+
+                    <!-- Magnetometer -->
+
+                </GridLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_start_stop"
+                android:text="@string/start_title"
+                android:onClick="startStopRecording"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                />
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!--
+    <org.rajawali3d.surface.RajawaliSurfaceView
+        android:id="@+id/gl_surface_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
+
+
+</LinearLayout>

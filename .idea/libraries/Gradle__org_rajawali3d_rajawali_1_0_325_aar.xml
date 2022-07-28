@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: org.rajawali3d:rajawali:1.0.325@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3769b3c588fc9efe9cd2f1df805f1006/jetified-rajawali-1.0.325/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3769b3c588fc9efe9cd2f1df805f1006/jetified-rajawali-1.0.325/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3769b3c588fc9efe9cd2f1df805f1006/jetified-rajawali-1.0.325/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.rajawali3d/rajawali/1.0.325/d40f9cc50f99098387c60b83666ad9ddc705e5b8/rajawali-1.0.325-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.rajawali3d/rajawali/1.0.325/c6765be281fd67b754ba01292f0b8047a2252dfb/rajawali-1.0.325-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
