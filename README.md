@@ -8,7 +8,7 @@ collecting the ground truth trajectory has been replaced with AR-Core API that m
 
 
 2- The test part of the [RONIN](https://github.com/Sachini/ronin) for the ResNet18 model using all the proposed models and some samples of the
-collected dataset has been implemented on Android. Samples can be downloaded here and must be put in the raw folder.
+collected dataset has been implemented on Android. Samples can be downloaded [here](https://www.dropbox.com/s/621v5lbf237gxg4/raw.zip?dl=0) and must be put in the raw folder.
 
 3- A comparison has been implemented to show the efficiency and accuracy of the proposed model. The result can be seen in the video below:  
 
