@@ -1,5 +1,6 @@
 # IMUNet: Efficient Regression Architecture for IMU Navigation and Positioning (Android Implementation)
-This repository contains an android implementation for the paper:
+This repository contains an android implementation for the [IMUNet](https://arxiv.org/abs/2208.00068) paper. 
+
 It has three parts:
 
 1- An application for collecting a new dataset that uses the AR-Core API for collecting the ground truth using the SLAM techniques and IMU measurements.
