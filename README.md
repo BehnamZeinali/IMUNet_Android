@@ -1,5 +1,5 @@
-# IMUNet: Efficient Regression Architecture for IMU Navigation and Positioning (Android Implementation)
-This repository contains an android implementation for the [IMUNet](https://arxiv.org/abs/2208.00068) paper. 
+# IMUNet: Efficient Regression Architecture for Inertial IMU Navigation and Positioning (Android Implementation)
+This repository contains an Android implementation for the [IMUNet](https://ieeexplore.ieee.org/abstract/document/10480886) paper. 
 
 It has three parts:
 
@@ -14,4 +14,12 @@ collected dataset has been implemented on Android. Samples can be downloaded [he
 3- A comparison has been implemented to show the efficiency and accuracy of the proposed model. The result can be seen in the video below:  
 
 
-https://user-images.githubusercontent.com/29498989/181649816-e1adcb44-e899-445e-b1a0-f2467a0030dc.MP4
+#citation
+
+@article{zeinali2024imunet,
+  title={IMUNet: Efficient Regression Architecture for Inertial IMU Navigation and Positioning},
+  author={Zeinali, Behnam and Zanddizari, Hadi and Chang, Morris J},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2024},
+  publisher={IEEE}
+}
