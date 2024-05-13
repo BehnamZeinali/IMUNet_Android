@@ -14,7 +14,7 @@ collected dataset has been implemented on Android. Samples can be downloaded [he
 3- A comparison has been implemented to show the efficiency and accuracy of the proposed model. The result can be seen in the video below:  
 
 
-#citation
+# Citation
 
 @article{zeinali2024imunet,
   title={IMUNet: Efficient Regression Architecture for Inertial IMU Navigation and Positioning},
